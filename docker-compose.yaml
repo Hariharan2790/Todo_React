@@ -1,0 +1,9 @@
+version: "3"
+services:
+  todo-react:
+    container_name: todo-react
+    build: ./
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
